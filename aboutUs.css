@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-    
+
+footer {
+    background-color: #E5F0ED;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.email {
+    color: #284B63;
+    font-size:17px;
+}
+
+.email:hover {
+    color: #B72A46
+}
+
 *{
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /*HEADER / NAV BAR */
 .ca{
-    padding: 10px;
-    margin: 10px;
-    clear:both;
-    overflow:auto;
-    background-color: #390040;
-    float: center;
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+  overflow:auto;
+  background-color: #390040;
+  float: center;
 }
 
 .logo {
@@ -30,12 +49,41 @@
 }
 
 .ca:after {
-    content: " ";
-    display: table;
-    clear: both;
+  content: " ";
+  display: table;
+  clear: both;
 }
 
-@media screen and (max-width: 650px) {
+
+nav{
+    float:right;
+}
+
+.logo img{float:left;width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin-top: -6px;}
+
+ul li{
+    display: inline-block; 
+    padding:10px; 
+    text-decoration: none;
+    color:#BCE7FD;
+    padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color:#BCE7FD;
+  font-size:25px;
+}
+
+a:active{
+  color:#fef4ae;
+}
+
+a:hover {
+    color: #E4DAE7;
+}
+
+@media screen and (max-width: 800px) {
     .logo {
         width: 100%
     }
@@ -46,37 +94,14 @@
 
     ul li {
         width: 100%;
-        padding-top: 3px;
+        padding-top: 0px;
     }
     
 }
 
-.logo img{
-    float:left;
-    width: 140px; height: 140px;
-    border-radius: 50%; 
-    overflow: hidden; 
-    margin-top: -6px;
-}
-
-ul li{
-    display: inline-block; 
-    padding:10px;
-    font-size:30px; 
-    text-decoration: none;
-    color:#BCE7FD;
-}
-
-a:link, a:visited {
-    text-decoration: none;
-    color:#BCE7FD;
-}
-
-a:active{
-    color:#fef4ae;
-}
-
 /* END HEADER / NAV BAR */
+
+
 /* Three columns side by side */
 .column {
     float: left;
@@ -86,7 +111,7 @@ a:active{
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .column {
         width: 100%;
         display: block;
@@ -121,4 +146,9 @@ a:active{
 .name{
     color: #390040;
     font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

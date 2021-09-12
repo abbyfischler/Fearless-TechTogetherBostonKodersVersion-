@@ -4,7 +4,8 @@
 By: Abby, Corinna, Vaishnavi
 
 ## Inspiration
-We are competing in TechTogether Bostona nd trying to win the Best Social Hack
+We were inspired by how far we have come in life by working through our fears and taking risks!
+We are competing in TechTogether Boston and trying to win the Best Social Hack
 ## What it does
 Helps conquer you become fearless!
 ## How we built it
@@ -18,3 +19,4 @@ Helps conquer you become fearless!
 
 ## What's next for Fearless (TechTogetherBoston Koders Version)
    - adding more to the website!
+   - working together at future hackathons!
