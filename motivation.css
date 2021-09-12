@@ -2,10 +2,17 @@
 
 footer {
     background-color: #E5F0ED;
-    left: 0;
-    bottom: 0;
+  
     width: 100%;
     text-align: center;
+    align-content: center;
+
+}
+
+.footer {
+    font-size: 17px;
+    text-align: center;
+    padding: 0px;
 }
 
 .email {
@@ -14,13 +21,13 @@ footer {
 }
 
 .email:hover {
-    color: #B72A46
+    color: rgb(99, 8, 64)
 }
 
-*{
-    font-family: 'Nunito', sans-serif;
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 /*HEADER / NAV BAR */
@@ -80,7 +87,7 @@ a:active{
 }
 
 a:hover {
-    color: #E4DAE7;
+    color: #B72A46;
 }
 
 @media screen and (max-width: 800px) {
@@ -111,6 +118,8 @@ p{
   padding: 10px;
   text-align: justify;
 }
+
+
 
 .container{
 font-family: monospace;
